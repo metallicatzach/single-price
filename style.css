@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Karla', sans-serif;
+    
+}
+body {
+    background-color: #E6EFF6 ;
+    width:1440px;
+    height:800px;
+    overflow: scroll;
+    
+}
+.main {
+    position: absolute;
+    top:160px;
+    left:400px;
+    height:475px;
+    width:630px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px #D1E1EE;
+    border-radius:15px;
+   
+}
+.top {
+    padding-top:40px;
+    padding-left:40px;
+    height:45%;
+    width:100%;
+    background-color: white ;
+    border-radius:15px;
+    display:flex;
+    flex-direction: column;
+    
+
+}
+.join {
+    
+    color:#42ABA7;
+    padding:15px 0;
+    font-size:15px;
+    font-weight:100;
+}
+.thirty {
+    color:hsl(71, 73%, 54%);
+    font-size:15px;
+    font-weight: 100;
+}
+.info {
+    color:#A9AEB4;
+    padding:15px 0;
+}
+.bottom {
+    height:55%;
+    width:100%;
+    background-color:#2BB3B1 ;
+    border-radius:0 0 15px 15px;
+    display:flex;
+    flex-direction: row;
+    border-radius:15px;
+}
+.left {
+    height:100%;
+    width:50%;
+    background-color: #2BB3B1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:0 0 15px 15px;
+}
+.content_box {
+    height:220px;
+    width:275px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+.monthly {
+    color:white;
+    font-size: 17px;
+    height:10%;
+    padding-left:15px;
+}
+.number_box {
+    display:flex;
+    flex-direction: row;
+    height:30%;
+    padding-left:15px;
+}
+.number_box h3 {
+    display:flex;
+    align-items: center;
+    font-size:30px;
+    color:white;
+}
+.number_box p {
+    color:#5CD2D2;
+    display: flex;
+    align-items: center;
+    font-size:12px;
+}
+.full {
+    height:10%;
+    color:white;
+    padding-left:15px;
+}
+.btn_box {
+    height:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    background-color:#BFDF32 ;
+    height:50px;
+    width:240px;
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    box-shadow: 10px 10px 10px #28A4A4;
+}
+.right {
+    height:100%;
+    width:50%;
+    background-color: #4ABEBD;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:0 0  15px 0;
+}
+.content_two {
+    width:250px;
+    height:200px;
+}
+.why {
+    font-size:17px;
+    color:white;
+    padding:15px 0;
+}
+.info_two {
+    font-size:13px;
+    color:white;
+    line-height: 1.6;
+}
